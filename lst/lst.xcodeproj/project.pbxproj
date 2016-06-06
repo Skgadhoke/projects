@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		325FD9991D04A95900D19C72 /* dispView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325FD9981D04A95900D19C72 /* dispView.swift */; };
 		32B26A611D03862200196BC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B26A601D03862200196BC7 /* AppDelegate.swift */; };
 		32B26A631D03862200196BC7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B26A621D03862200196BC7 /* FirstViewController.swift */; };
 		32B26A651D03862200196BC7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B26A641D03862200196BC7 /* SecondViewController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		325FD9981D04A95900D19C72 /* dispView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = dispView.swift; path = ../dispView.swift; sourceTree = "<group>"; };
 		32B26A5B1D03862200196BC7 /* lst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lst.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32B26A5F1D03862200196BC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32B26A601D03862200196BC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			children = (
 				32B26A601D03862200196BC7 /* AppDelegate.swift */,
 				32B26A621D03862200196BC7 /* FirstViewController.swift */,
+				325FD9981D04A95900D19C72 /* dispView.swift */,
 				32B26A641D03862200196BC7 /* SecondViewController.swift */,
 				32B26A661D03862200196BC7 /* Main.storyboard */,
 				32B26A691D03862200196BC7 /* Images.xcassets */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				325FD9991D04A95900D19C72 /* dispView.swift in Sources */,
 				32B26A651D03862200196BC7 /* SecondViewController.swift in Sources */,
 				32B26A611D03862200196BC7 /* AppDelegate.swift in Sources */,
 				32B26A631D03862200196BC7 /* FirstViewController.swift in Sources */,
@@ -411,6 +415,7 @@
 				32B26A7E1D03862200196BC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32B26A7F1D03862200196BC7 /* Build configuration list for PBXNativeTarget "lstTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				32B26A811D03862200196BC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
